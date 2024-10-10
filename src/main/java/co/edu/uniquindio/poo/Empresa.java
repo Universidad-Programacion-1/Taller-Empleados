@@ -2,12 +2,21 @@ package co.edu.uniquindio.poo;
 
 import java.util.Collection;
 import java.util.LinkedList;
-
+/**
+ * 
+ */
 public class Empresa {
+    /**
+     * 
+     */
     private String nombre;
     private Collection<EmpleadoFreelance> empleadoFreelances;
     private Collection<EmpleadoPorHora> empleadoPorHoras;
     private Collection<EmpleadoTiempoCompleto> empleadoTiempoCompletos;
+    /**
+     * 
+     * @param nombre
+     */
     public Empresa(String nombre) {
         this.nombre = nombre;
         empleadoFreelances = new LinkedList<>();
@@ -15,6 +24,7 @@ public class Empresa {
         empleadoTiempoCompletos = new LinkedList<>();
 
     }
+
     public String getNombre() {
         return nombre;
     }
@@ -39,6 +49,9 @@ public class Empresa {
     public void setEmpleadoTiempoCompletos(Collection<EmpleadoTiempoCompleto> empleadoTiempoCompletos) {
         this.empleadoTiempoCompletos = empleadoTiempoCompletos;
     }
+    /**
+     * 
+     */
     @Override
     public String toString() {
         return "Empresa [nombre=" + nombre + ", empleadoFreelances=" + empleadoFreelances + ", empleadoPorHoras="

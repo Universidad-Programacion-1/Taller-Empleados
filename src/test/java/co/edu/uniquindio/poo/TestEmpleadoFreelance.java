@@ -1,15 +1,19 @@
 package co.edu.uniquindio.poo;
-
+/**
+ * 
+ */
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import java.util.logging.Logger;
 import org.junit.jupiter.api.Test;
 
 /**
- * Unit test for simple App.
+ * 
  */
 public class TestEmpleadoFreelance {
     private static final Logger LOG = Logger.getLogger(AppTest.class.getName());
+    /**
+     * 
+     */
 
     @Test
     public void pruebaCalcularSalarioEmpleadoFreelance() {
