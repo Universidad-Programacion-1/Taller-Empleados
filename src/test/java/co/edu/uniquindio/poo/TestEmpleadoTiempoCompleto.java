@@ -8,6 +8,7 @@ public class TestEmpleadoTiempoCompleto {
     private static final Logger LOG = Logger.getLogger(AppTest.class.getName());
     /**
      * Test AssertEquals
+     * Este test valida que el salario resivido sea igual al esperado
      */
     @Test
     public void testAssertEquals() {
