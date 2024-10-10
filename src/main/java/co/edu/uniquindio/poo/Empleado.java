@@ -1,13 +1,13 @@
 package co.edu.uniquindio.poo;
 
 public abstract class Empleado {
-    private String nombre, identificacionñ;
+    private String nombre, identificacion;
 
-    public abstract void calcularSalario();
+    public abstract double calcularSalario();
 
-    public Empleado(String nombre, String identificacionñ) {
+    public Empleado(String nombre, String identificacion) {
         this.nombre = nombre;
-        this.identificacionñ = identificacionñ;
+        this.identificacion = identificacion;
     }
 
     public String getNombre() {
@@ -18,16 +18,16 @@ public abstract class Empleado {
         this.nombre = nombre;
     }
 
-    public String getIdentificacionñ() {
-        return identificacionñ;
+    public String getIdentificacion() {
+        return identificacion;
     }
 
-    public void setIdentificacionñ(String identificacionñ) {
-        this.identificacionñ = identificacionñ;
+    public void setIdentificacion(String identificacion) {
+        this.identificacion = identificacion;
     }
 
     @Override
     public String toString() {
-        return "Empleado [nombre=" + nombre + ", identificacionñ=" + identificacionñ + "]";
+        return "Empleado [nombre=" + nombre + ", identificacion=" + identificacion + "]";
     }
 }
