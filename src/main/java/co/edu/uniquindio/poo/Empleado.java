@@ -3,7 +3,7 @@ package co.edu.uniquindio.poo;
 public abstract class Empleado {
     private String nombre, identificacionñ;
 
-    public abstract void calcularSalario();
+    public abstract double calcularSalario();
 
     public Empleado(String nombre, String identificacionñ) {
         this.nombre = nombre;
